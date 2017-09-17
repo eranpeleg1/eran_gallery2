@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Reddit Photos Search</title>
+	<link rel="stylesheet"  href="headerDesign.css">
+	<link rel="stylesheet"  href="bodyDesign.css">
+</head>
+
+<body id="body">
+	<h1 id="headline">Reddit Gallery</h1>
+	<input type="text" id="searchBars" placeholder="Type Subredit.." onkeypress="findOnReddit(event)"></input>
+	<div style="text-align:center;">
+		<table id="photoTable">
+			<tr>
+
+				<td><a id="link0" href=""><img class="cellDesign" id="pic0" src=""></a></td>
+				<td><a id="link1" href=""><img class="cellDesign" id="pic1" src=""></a></td>
+				<td><a id="link2" href=""><img class="cellDesign" id="pic2" src=""></a></td>
+			</tr>
+			
+			<tr>
+				<td><a id="link3" href=""><img class="cellDesign" id="pic3" src="" ></a></td>
+				<td><a id="link4" href=""><img class="cellDesign" id="pic4" src=""></a></td>
+				<td><a id="link5" href=""><img class="cellDesign" id="pic5" src=""></a></td>
+			</tr>
+			
+			<tr>
+				<td><a id="link6" href=""><img class="cellDesign" id="pic6" src=""></a></td>
+				<td><a id="link7" href=""><img class="cellDesign" id="pic7" src=""></a></td>
+				<td><a id="link8" href=""><img class="cellDesign" id="pic8" src=""></a></td>
+			</tr>
+		</table>
+	</div>
+	<script src="reddit.min.js"></script>
+	<script src="searchBar.js"></script>
+</body>
+
+
+</html>	

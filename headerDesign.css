@@ -1,0 +1,26 @@
+#searchBars{
+	alignment: left;
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    font-size: 16px;
+	color: gray;
+    background-color: white;
+    padding: 12px 20px 12px 30px;
+	font-family:verdana;
+	margin-bottom: 20px;
+}
+
+#searchButton{
+	
+	width:100px;
+	padding: 6px 12px 8px 12px;
+	font-size: 20px;
+	background-color:white;
+	color: black;
+	font-family:verdana;
+	border-radius: 7px;
+	margin-bottom: 20px;
+
+}
+
